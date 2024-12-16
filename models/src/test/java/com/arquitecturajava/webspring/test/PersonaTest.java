@@ -1,0 +1,21 @@
+package com.arquitecturajava.webspring.test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import com.arquitecturajava.spring.models.Persona;
+
+class PersonaTest {
+
+	@Test
+	void mayorEdadtest() {
+		//AAA
+		
+		//arrange preparar
+		Persona p = new Persona("pepe", 20);
+		boolean esMayor = p.esMayorEdad();
+		assertTrue(esMayor);
+	}
+
+}
