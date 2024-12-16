@@ -53,7 +53,7 @@ class PersonaTest {
 		//AAA
 		
 		//arrange preparar
-		Persona p = new Persona("pepe", 10);
+		Persona p = new Persona("pepe", 20);
 		boolean esMayor = p.esMayorEdad();
 		assertTrue(esMayor);
 	}
