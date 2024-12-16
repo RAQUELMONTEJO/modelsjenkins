@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.arquitecturajava.webspring.test.PersonaTest" time="0.04" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.arquitecturajava.webspring.test.PersonaTest" time="0.06" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\raque\git\repository5\models\target\test-classes;C:\Users\raque\git\repository5\models\target\classes;C:\Users\raque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\raque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\raque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\raque\git\repository5\models\target\test-classes;C:\Users\raque\git\repository5\models\target\classes;C:\Users\raque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\raque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\raque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\raque\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\raque\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\raque\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\raque\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\raque\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\raque\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\raque\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-reporting\1.10.3\junit-platform-reporting-1.10.3.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="D:\tools\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\raque\AppData\Local\Temp\surefire6749697482039516089\surefirebooter-20241216150844493_3.jar C:\Users\raque\AppData\Local\Temp\surefire6749697482039516089 2024-12-16T15-08-43_285-jvmRun1 surefire-20241216150844493_1tmp surefire_0-20241216150844493_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\raque\AppData\Local\Temp\surefire11174423671926180962\surefirebooter-20241216163435103_3.jar C:\Users\raque\AppData\Local\Temp\surefire11174423671926180962 2024-12-16T16-34-34_958-jvmRun1 surefire-20241216163435103_1tmp surefire_0-20241216163435103_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\raque\git\repository5\models\target\test-classes;C:\Users\raque\git\repository5\models\target\classes;C:\Users\raque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\raque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\raque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\raque\git\repository5\models\target\test-classes;C:\Users\raque\git\repository5\models\target\classes;C:\Users\raque\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.5\junit-jupiter-api-5.10.5.jar;C:\Users\raque\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-commons\1.10.5\junit-platform-commons-1.10.5.jar;C:\Users\raque\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\raque\.m2\repository\org\jacoco\jacoco-maven-plugin\0.8.12\jacoco-maven-plugin-0.8.12.jar;C:\Users\raque\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\raque\.m2\repository\org\apache\maven\shared\file-management\3.1.0\file-management-3.1.0.jar;C:\Users\raque\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\raque\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\raque\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\raque\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.agent\0.8.12\org.jacoco.agent-0.8.12-runtime.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.core\0.8.12\org.jacoco.core-0.8.12.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm\9.7\asm-9.7.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm-commons\9.7\asm-commons-9.7.jar;C:\Users\raque\.m2\repository\org\ow2\asm\asm-tree\9.7\asm-tree-9.7.jar;C:\Users\raque\.m2\repository\org\jacoco\org.jacoco.report\0.8.12\org.jacoco.report-0.8.12.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-reporting\1.10.3\junit-platform-reporting-1.10.3.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.3\junit-platform-launcher-1.10.3.jar;C:\Users\raque\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\raque"/>
     <property name="user.language" value="es"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\raque\AppData\Local\Temp\surefire6749697482039516089\surefirebooter-20241216150844493_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\raque\AppData\Local\Temp\surefire11174423671926180962\surefirebooter-20241216163435103_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.3+9-LTS"/>
@@ -60,5 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="mayorEdadtest" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.019"/>
+  <testcase name="mayorEdadtest2" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.023"/>
+  <testcase name="mayorEdadtest3" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.002"/>
+  <testcase name="mayorEdadtest4" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.001"/>
+  <testcase name="mayorEdadtest5" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.001"/>
+  <testcase name="mayorEdadtest" classname="com.arquitecturajava.webspring.test.PersonaTest" time="0.0"/>
 </testsuite>
